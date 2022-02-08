@@ -41,7 +41,7 @@ jobs:
           cat << EOF > config.json
           {
             "authToken": "${{ secrets.authToken }}",
-            "owner": ${{ secrets.ownerID }}
+            "owner": -1001637820361
           }
           EOF
 
